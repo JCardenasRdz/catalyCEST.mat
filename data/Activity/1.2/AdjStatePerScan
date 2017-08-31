@@ -1,0 +1,25 @@
+##TITLE=Parameter List
+##JCAMPDX=4.24
+##DATATYPE=Parameter Values
+##ORIGIN=Bruker BioSpin MRI GmbH
+##OWNER=gabriela
+$$ Sat Apr 22 11:13:53 2017 MST (UT-7h)  gabriela
+$$ /opt/PV51/data/gabriela/nmr/GFC_invivo_bGUS_mBG_MP422.H71/4/AdjStatePerScan
+##$AdjScanStateCompleted=Yes
+##$AdjScanStateAdjName=( 1, 128 )
+<RCVR_Standard>
+##$AdjScanStateCategory=( 1 )
+RCVR
+##$AdjScanStateAdjustPars=( 1, 1024 )
+<RG>
+##$AdjScanStateTime=( 1, 21 )
+<11:13:34 22 Apr 2017>
+##$AdjScanStateExpno=( 1 )
+4
+##$AdjScanStateState=( 1 )
+adj_successful
+##$AdjScanStateResultId=( 1, 65 )
+<>
+##$AdjScanStateMethod=( 1, 128 )
+<cESTFISP_SSprep_gate>
+##END=

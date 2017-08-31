@@ -1,0 +1,114 @@
+##TITLE=Parameter List
+##JCAMPDX=4.24
+##DATATYPE=Parameter Values
+##ORIGIN=Bruker BioSpin MRI GmbH
+##OWNER=gabriela
+$$ Sat Apr 22 10:44:00 2017 MST (UT-7h)  gabriela
+$$ /opt/PV51/data/gabriela/nmr/GFC_invivo_bGUS_mBG_MP422.H71/2/pdata/1/visu_pars
+##$VisuVersion=1
+##$VisuUid=( 65 )
+<2.16.756.5.5.100.4167689927.20267.1492883038.2>
+##$VisuCreator=( 65 )
+<ParaVision>
+##$VisuCreatorVersion=( 65 )
+<5.1>
+##$VisuCreationDate=( 21 )
+<10:37:33 22 Apr 2017>
+$$ @vis= VisuVersion VisuUid VisuCreator VisuCreatorVersion VisuCreationDate
+##$VisuCoreFrameCount=1
+##$VisuCoreDim=2
+##$VisuCoreSize=( 2 )
+192 192
+##$VisuCoreDimDesc=( 2 )
+spatial spatial
+$$ @vis= VisuInstance VisuCoreFrameCount VisuCoreDim VisuCoreSize
+##$VisuCoreExtent=( 2 )
+48 48
+##$VisuCoreFrameThickness=( 1 )
+2
+##$VisuCoreUnits=( 2, 65 )
+<mm> <mm>
+##$VisuCoreOrientation=( 1, 9 )
+1 0 0 0 1 0 0 0 1
+$$ @vis= VisuCoreDimDesc VisuCoreExtent VisuCoreFrameThickness VisuCoreUnits
+##$VisuCorePosition=( 1, 3 )
+-24 -24 5
+##$VisuCoreDataMin=( 1 )
+1
+##$VisuCoreDataMax=( 1 )
+32767
+##$VisuCoreDataOffs=( 1 )
+0
+$$ @vis= VisuCoreOrientation VisuCorePosition VisuCoreDataMin VisuCoreDataMax
+##$VisuCoreDataSlope=( 1 )
+148.916131806932
+##$VisuCoreFrameType=MAGNITUDE_IMAGE
+##$VisuCoreWordType=_16BIT_SGN_INT
+$$ @vis= VisuCoreDataOffs VisuCoreDataSlope VisuCoreFrameType VisuCore
+##$VisuCoreByteOrder=littleEndian
+##$VisuSubjectName=( 65 )
+<GFC_invivo_bGUS_mBG_MP422>
+$$ @vis= VisuCoreWordType VisuCoreByteOrder VisuPixel VisuFrameOrderDesc
+##$VisuSubjectId=( 65 )
+<GFC_invivo_bGUS_mBG_MP422>
+##$VisuSubjectBirthDate=( 9 )
+<>
+##$VisuSubjectSex=FEMALE
+##$VisuSubjectComment=( 2048 )
+<>
+$$ @vis= VisuSubjectName VisuSubjectId VisuSubjectBirthDate VisuSubjectSex
+##$VisuStudyUid=( 65 )
+<2.16.756.5.5.100.4167689927.19722.1492881415.3011>
+##$VisuStudyDate=( 21 )
+<10:16:55 22 Apr 2017>
+##$VisuStudyId=( 65 )
+<GFC_invivo_bGUS_mBG_MP422>
+##$VisuStudyNumber=1
+$$ @vis= VisuSubjectComment VisuSubject VisuStudyUid VisuStudyDate VisuStudyId
+##$VisuSubjectWeight=5
+##$VisuStudyReferringPhysician=( 65 )
+<>
+##$VisuStudyDescription=( 65 )
+<>
+$$ @vis= VisuStudyNumber VisuSubjectWeight VisuStudyReferringPhysician
+##$VisuSeriesNumber=131073
+##$VisuSubjectPosition=Head_Supine
+##$VisuSeriesTypeId=( 65 )
+<ACQ_BRUKER_PVM>
+$$ @vis= VisuStudyDescription VisuStudy VisuSeriesNumber VisuSubjectPosition
+##$VisuInstitution=( 65 )
+<Univ. of Arizona>
+##$VisuStation=( 65 )
+<Biospec 70/20>
+##$VisuAcqDate=( 21 )
+<10:37:33 22 Apr 2017>
+$$ @vis= VisuSeriesTypeId VisuSeries VisuInstitution VisuStation VisuEquipment
+##$VisuAcqEchoTrainLength=1
+##$VisuAcqSequenceName=( 40 )
+<MSME (pvm)>
+##$VisuAcqNumberOfAverages=1
+$$ @vis= VisuAcqDate VisuAcqEchoTrainLength VisuAcqSequenceName
+##$VisuAcqImagingFrequency=300.243801985091
+##$VisuAcqImagedNucleus=( 8 )
+<1H>
+##$VisuAcqRepetitionTime=( 1 )
+2000
+$$ @vis= VisuAcqNumberOfAverages VisuAcqImagingFrequency VisuAcqImagedNucleus
+##$VisuAcqPhaseEncSteps=192
+##$VisuAcqPixelBandwidth=260.416666666667
+##$VisuAcqFlipAngle=180
+$$ @vis= VisuAcqRepetitionTime VisuAcqPhaseEncSteps VisuAcqPixelBandwidth
+##$VisuAcqSize=( 2 )
+192 192
+##$VisuAcqImageSizeAccellerated=No
+##$VisuAcqImagePhaseEncDir=( 1 )
+col_dir
+$$ @vis= VisuAcqFlipAngle VisuAcqSize VisuAcqImageSizeAccellerated
+##$VisuAcqEchoTime=( 1 )
+10
+##$VisuAcquisitionProtocol=( 65 )
+<invivo_highRes_anatomical_20170211(modified)>
+##$VisuAcqScanTime=384000
+$$ @vis= VisuAcqImagePhaseEncDir VisuAcqEchoTime VisuAcquisitionProtocol
+$$ @vis= VisuAcqScanTime VisuAcquisition Visu
+##END=
