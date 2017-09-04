@@ -141,13 +141,17 @@ for q=1:length(indices);
 ppmlong=linspace(min(ppmadj),max(ppmadj),1000); ppmlong=ppmlong';
 Zlong = csaps(ppmadj,Difference,1,ppmlong);
 %%
-[beta,~,R]=lsqcurvefit(@lorentzian,x0(:,2),ppmlong,Zlong,x0(:,1),x0(:,3),options);
-                     
+[beta,~,R,~,~,~,jacobian]=lsqcurvefit(@lorentzian,x0(:,2),ppmlong,Zlong,x0(:,1),x0(:,3),options);
+
+
+%% modified by Julio on  03-Sep-2017 to include the confidence interval
+ci = nlparci(beta,R,'jacobian',jacobian);
+
     %% 9.5) Allocate fitting results for voxel Q 
 CESTfit{q}.cfit.pars=beta;
 CESTfit{q}.cfit.residuals=R;
+CESTfit{q}.cfit.ci=ci;
 
-   
     [Lsum,L]=lorentzian(beta,ppmadj);
             CESTfit{q}.Lsum=Lsum;
             CESTfit{q}.cfitall=L;
